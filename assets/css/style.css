@@ -201,6 +201,7 @@ input {
 
 /* HEADER SECTION */
 #h {
+  position: relative;
 	background: url(../img/header.jpg) no-repeat center top;
 	padding-top: 5px;
 	background-attachment: relative;
@@ -220,24 +221,12 @@ input {
     color: white;
 }
 
-#h .logo {
-	margin-top: 30px;
-	margin-left: 40px;
-	padding-bottom: 150px;
-}
-
-#h .logo h2{
-	font-weight: 900;
-	color: white;
-	letter-spacing: 1px;
-}
-
-#h h3 {
-	margin-top: 10px;
-}
-
-#h i {
-	font-size: 50px;
+#h .header-text {
+  position: absolute;
+  top: 43%;
+  left: 12%;
+  font-size: 3vw;
+  color: white;
 }
 
 /* GREY SECTION */
